@@ -1,6 +1,6 @@
 import { FaGithub } from "react-icons/fa";
-import { CiLinkedin } from "react-icons/ci";
-import { CiFacebook } from "react-icons/ci";
+import { BsLinkedin } from "react-icons/bs";
+import { FaFacebook } from "react-icons/fa";
 
 
 
@@ -22,14 +22,14 @@ const Footer = () => {
 
                     {/* Social Icons */}
                     <div className="flex items-center gap-3">
-                        <a href="#" className="text-gray-400 hover:text-white transition-colors">
+                        <a href="https://github.com/hafizflow" target="_blank" className="text-gray-400 hover:text-white transition-colors">
                             <FaGithub className="text-2xl" />
                         </a>
-                        <a href="#" className="text-gray-400 hover:text-white transition-colors">
-                            <CiLinkedin className="text-2xl" />
+                        <a href="https://www.linkedin.com/in/hafizflow/" target="_blank" className="text-gray-400 hover:text-white transition-colors">
+                            <BsLinkedin className="text-2xl" />
                         </a>
-                        <a href="#" className="text-gray-400 hover:text-white transition-colors">
-                            <CiFacebook className="text-2xl" />
+                        <a href="https://www.facebook.com/hafizur.rahman.68430" target="_blank" className="text-gray-400 hover:text-white transition-colors">
+                            <FaFacebook className="text-2xl" />
                         </a>
 
                     </div>

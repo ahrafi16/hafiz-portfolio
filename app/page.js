@@ -1,6 +1,6 @@
 import { FaGithub } from "react-icons/fa";
-import { CiLinkedin } from "react-icons/ci";
-import { CiFacebook } from "react-icons/ci";
+import { BsLinkedin } from "react-icons/bs";
+import { FaFacebook } from "react-icons/fa";
 import { GoTag } from "react-icons/go";
 import { FaRegStar } from "react-icons/fa";
 import { FaArrowRight } from "react-icons/fa6";
@@ -16,17 +16,15 @@ export default function Home() {
         </p>
       </div>
       <div className="my-5 flex items-center gap-6">
-        <a className="hover:text-[#a6e3a1]" href=""><span className="flex items-center gap-2"><FaGithub className="text-lg" />Github</span></a>
+        <a className="hover:text-[#a6e3a1]" href="https://github.com/hafizflow" target="_blank"><span className="flex items-center gap-2"><FaGithub className="text-lg" />Github</span></a>
         <span className="text-xs text-gray-600">|</span>
-        <a className="hover:text-[#a6e3a1]" href=""><span className="flex items-center gap-2"><CiLinkedin className="text-lg" />LinkedIn</span></a>
+        <a className="hover:text-[#a6e3a1]" href="https://www.linkedin.com/in/hafizflow/" target="_blank"><span className="flex items-center gap-2"><BsLinkedin className="text-lg" />LinkedIn</span></a>
         <span className="text-xs text-gray-600">|</span>
-        <a className="hover:text-[#a6e3a1]" href=""><span className="flex items-center gap-2"><CiFacebook className="text-lg" />Facebook</span></a>
+        <a className="hover:text-[#a6e3a1]" href="https://www.facebook.com/hafizur.rahman.68430" target="_blank"><span className="flex items-center gap-2"><FaFacebook className="text-lg" />Facebook</span></a>
       </div>
-      <div>
-        tor company
-      </div>
+
       <div className="flex justify-between items-center mt-20 mb-10">
-        <h1 className="text-4xl flex  gap-2 items-center"><FaRegStar className="text-[#a6e3a1] text-2xl"/>Featured Projects</h1>
+        <h1 className="text-4xl flex  gap-2 items-center"><FaRegStar className="text-[#a6e3a1] text-2xl" />Featured Projects</h1>
         <p className="flex items-center gap-1 text-[#a6e3a1] cursor-pointer">view all <FaArrowRight /></p>
       </div>
       <div className="flex flex-col md:flex-row gap-7">

@@ -1,11 +1,15 @@
 'use client';
 
 import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 import React, { useState, useEffect } from 'react';
 import { IoMdMenu, IoMdClose } from "react-icons/io";
 
 const Page = () => {
     const [isDrawerOpen, setIsDrawerOpen] = useState(false);
+
+    const pathename = usePathname();
+
 
     const toggleDrawer = () => {
         setIsDrawerOpen(!isDrawerOpen);
@@ -34,12 +38,13 @@ const Page = () => {
                     maskImage: 'linear-gradient(to bottom, black 0%, black 60%, transparent 100%)',
                     WebkitMaskImage: 'linear-gradient(to bottom, black 0%, black 60%, transparent 100%)'
                 }}
+
                 className="sticky top-0 z-50 backdrop-blur-sm border-none inset-0"
             >
                 <ul className="flex h-24 items-center justify-between px-4 md:px-0">
                     <li>
                         <Link href="/" className="hover:text-[#a6e3a1] font-bold text-xl flex items-center transition-colors">
-                            ~/
+                            ~{pathename}
                         </Link>
                     </li>
 
@@ -52,7 +57,7 @@ const Page = () => {
                         </li>
                         <li>
                             <Link href="/project" className="hover:text-[#a6e3a1] transition-colors">
-                                Project
+                                Projects
                             </Link>
                         </li>
                         <li>
