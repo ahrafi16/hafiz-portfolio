@@ -38,8 +38,7 @@ const Page = () => {
                     maskImage: 'linear-gradient(to bottom, black 0%, black 60%, transparent 100%)',
                     WebkitMaskImage: 'linear-gradient(to bottom, black 0%, black 60%, transparent 100%)'
                 }}
-
-                className="sticky top-0 z-50 backdrop-blur-sm border-none inset-0"
+                className="sticky px-10 md:px-50  top-0 z-50 backdrop-blur-sm  border-none inset-0"
             >
                 <ul className="flex h-24 items-center justify-between px-4 md:px-0">
                     <li>

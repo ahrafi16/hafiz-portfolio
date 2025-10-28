@@ -1,9 +1,11 @@
-import { FaGithub } from "react-icons/fa";
-import { BsLinkedin } from "react-icons/bs";
-import { FaFacebook } from "react-icons/fa";
+import { TbBrandGithub } from "react-icons/tb";
+import { TbBrandLinkedin } from "react-icons/tb";
+import { FaXTwitter } from "react-icons/fa6";
 import { GoTag } from "react-icons/go";
 import { FaRegStar } from "react-icons/fa";
 import { FaArrowRight } from "react-icons/fa6";
+
+
 
 export default function Home() {
   return (
@@ -16,11 +18,28 @@ export default function Home() {
         </p>
       </div>
       <div className="my-5 flex items-center gap-6">
-        <a className="hover:text-[#a6e3a1]" href="https://github.com/hafizflow" target="_blank"><span className="flex items-center gap-2"><FaGithub className="text-lg" />Github</span></a>
+        <a className="hover:text-[#a6e3a1]" href="https://github.com/hafizflow" target="_blank">
+          <span className="flex items-center gap-2">
+            <TbBrandGithub className="text-lg" />
+            Github
+          </span>
+        </a>
+
         <span className="text-xs text-gray-600">|</span>
-        <a className="hover:text-[#a6e3a1]" href="https://www.linkedin.com/in/hafizflow/" target="_blank"><span className="flex items-center gap-2"><BsLinkedin className="text-lg" />LinkedIn</span></a>
+
+        <a className="hover:text-[#a6e3a1]" href="https://www.linkedin.com/in/hafizflow/" target="_blank">
+          <span className="flex items-center gap-2">
+            <TbBrandLinkedin className="text-lg" />
+            LinkedIn
+          </span>
+        </a>
+
         <span className="text-xs text-gray-600">|</span>
-        <a className="hover:text-[#a6e3a1]" href="https://www.facebook.com/hafizur.rahman.68430" target="_blank"><span className="flex items-center gap-2"><FaFacebook className="text-lg" />Facebook</span></a>
+
+        <a className="hover:text-[#a6e3a1]" href="https://www.facebook.com/hafizur.rahman.68430" target="_blank">
+          <span className="flex items-center gap-2"><FaXTwitter className="text-lg" />
+          </span>
+        </a>
       </div>
 
       <div className="flex justify-between items-center mt-20 mb-10">
