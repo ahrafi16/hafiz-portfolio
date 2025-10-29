@@ -27,7 +27,7 @@ const page = () => {
         },
         {
             id: 2,
-            code: p1,
+            code: null,
             name: "GradeX ",
             version: "https://github.com/hafizflow/GradeX",
             description:
@@ -101,16 +101,21 @@ const page = () => {
                         key={project.id}
                         className="group border border-gray-700 hover:border-[#a6e3a1] rounded-2xl w-full h-full flex flex-col cursor-pointer"
                     >
+
                         {/* Top box */}
                         <div className="bg-[#a9b4c0] p-7 rounded-t-2xl">
                             <div className="bg-[#282a37] transition-transform duration-300 group-hover:scale-105 space-y-5 rounded-xl shadow-2xl">
-                                <Image
-                                    src={project.code}
-                                    alt="Picture of the author"
-                                    width={900}
-                                    height={900}
-                                    className="rounded-xl h-45 w-full md:w-[500px] lg:w-[700px]"
-                                />
+                                {
+                                    project.code != null ? <Image
+                                        src={project.code}
+                                        alt="Picture of the author"
+                                        width={900}
+                                        height={900}
+                                        className="rounded-xl h-45 w-full md:w-[500px] lg:w-[700px]"
+                                    /> : <div className="p-20">
+                                        Comming Soon...
+                                    </div>
+                                }
                             </div>
                         </div>
 

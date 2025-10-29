@@ -1,11 +1,12 @@
 import { TbBrandGithub } from "react-icons/tb";
 import { TbBrandLinkedin } from "react-icons/tb";
-import { FaXTwitter } from "react-icons/fa6";
+import { FaAppStore, FaXTwitter } from "react-icons/fa6";
 import { LuTag } from "react-icons/lu";
 import { FaRegStar } from "react-icons/fa";
 import { FaArrowRight } from "react-icons/fa6";
 import Image from "next/image";
 import p1 from "../public/project1.jpg";
+import Link from "next/link";
 
 
 
@@ -41,13 +42,27 @@ export default function Home() {
           <span className="flex items-center gap-2"><FaXTwitter className="text-lg" />
           </span>
         </a>
+
+        <span className="text-xs text-gray-600">|</span>
+
+        <Link className="hover:text-[#a6e3a1]" href="/about">
+          <span className="flex items-center group gap-2">More about me <FaArrowRight className="transition-translate duration-100 group-hover:translate-x-1" />
+          </span>
+        </Link>
       </div>
 
       <div className="flex justify-between items-center mt-20 mb-10">
         <h1 className="text-4xl flex font-semibold  gap-2 items-center"><FaRegStar className="text-[#a6e3a1] text-2xl" />Featured Projects</h1>
-        <p className="flex items-center gap-1 text-[#a6e3a1] cursor-pointer">view all <FaArrowRight /></p>
+
+        <Link className="text-[#a6e3a1]" href="/project">
+          <span className="flex items-center group gap-2">View all <FaArrowRight className="transition-translate duration-100 group-hover:translate-x-1" />
+          </span>
+        </Link>
+
       </div>
+      {/* featured projects */}
       <div className="flex flex-col md:flex-row gap-7">
+        {/* project 1 */}
         <div className="group border  border-gray-700 hover:border-[#a6e3a1] rounded-2xl w-full cursor-pointer">
           <div className="bg-[#a9b4c0] p-7 rounded-t-2xl">
             <div className="bg-[#282a37] transition-transform duration-300 group-hover:scale-105 space-y-5 rounded-xl shadow-2xl">
@@ -64,11 +79,20 @@ export default function Home() {
           </div>
           <div className="space-y-3 p-5">
             <h2 className="text-xl flex justify-between items-center font-semibold group-hover:text-[#a6e3a1] transition-colors duration-300">
-              <span>DIU Routine</span>
-              <TbBrandGithub className="" />
+
+              <span> DIU Routine</span>
+              <span className="flex items-center gap-3">
+                <a href="https://apps.apple.com/us/app/diu-routine/id6748752277" target="_blank" rel="noopener noreferrer">
+                  <FaAppStore className="text-xl hover:text-[#a6e3a1]" />
+                </a>
+                <a href="https://github.com/hafizflow/DiuRoutine" target="_blank" rel="noopener noreferrer">
+                  <TbBrandGithub className="text-xl hover:text-[#a6e3a1]" />
+                </a>
+              </span>
+
             </h2>
             <p>DIU Routine is a modern iOS app designed to help students and teachers of Daffodil International University easily access class routines and campus room information. It offers a clean UI, smooth performance, and real-time updates to make academic scheduling simple and efficient.</p>
-            <div className="flex items-center gap-2">
+            <div className="flex items-center mt-4 gap-2">
               <LuTag />
               <div className="flex gap-1">
                 <p className="text-blue-200 text-xs bg-[#313244] px-2 py-1 font-semibold rounded-md">Swift</p>
@@ -80,27 +104,33 @@ export default function Home() {
             </div>
           </div>
         </div>
+        {/* projects 2 */}
         <div className="group border  border-gray-700 hover:border-[#a6e3a1] rounded-2xl w-full cursor-pointer">
           <div className="bg-[#a9b4c0] p-7 rounded-t-2xl">
             <div className="bg-[#282a37] transition-transform duration-300 group-hover:scale-105 space-y-5 rounded-xl shadow-2xl">
 
-              <Image
+              {/* <Image
                 src={p1}
                 alt="Picture of the author"
                 width={900}
                 height={900}
                 className="rounded-xl w-full md:w-[500px] lg:w-[700px]"
-              />
+              /> */}
+              <div className="p-31 flex justify-center items-center text-gray-500">
+                Comming Soon...
+              </div>
             </div>
           </div>
           <div className="space-y-3 p-5">
             <h2 className="text-xl flex justify-between items-center font-semibold group-hover:text-[#a6e3a1] transition-colors duration-300">
               <span>GradeX</span>
-              <TbBrandGithub className="" />
+              <a href="https://github.com/hafizflow/GradeX" target="_blank" rel="noopener noreferrer">
+                <TbBrandGithub className="text-xl hover:text-[#a6e3a1]" />
+              </a>
             </h2>
             <p>GradeX is a powerful and intuitive iOS app built with Swift that helps students calculate and manage their CGPA with ease. The app allows users to input GPA and credits for each course, automatically computing the overall CGPA with accurate results.
             </p>
-            <div className="flex items-center gap-2">
+            <div className="flex items-center mt-4 gap-2">
               <LuTag />
               <div className="flex gap-1">
                 <p className="text-blue-200 text-xs bg-[#313244] px-2 py-1 font-semibold rounded-md">Swift</p>
