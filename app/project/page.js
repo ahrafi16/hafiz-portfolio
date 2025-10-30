@@ -23,7 +23,7 @@ const page = () => {
             title: "DIU Routine",
             details:
                 "DIU Routine is a modern iOS app designed to help students and teachers of Daffodil International University easily access class routines and campus room information. It offers a clean UI, smooth performance, and real-time updates to make academic scheduling simple and efficient.",
-            tags: ["Swift", "SwiftUI", "Swift Data", "PDFKit"],
+            tags: ["Swift", "SwiftUI", "SwiftData", "PDFKit"],
         },
         {
             id: 2,
@@ -36,7 +36,7 @@ const page = () => {
             title: "GradeX",
             details:
                 "GradeX is a powerful and intuitive iOS app built with Swift that helps students calculate and manage their CGPA with ease. The app allows users to input GPA and credits for each course, automatically computing the overall CGPA with accurate results.",
-            tags: ["Swift", "SwiftUI", "Swift Data", "PDFKit"],
+            tags: ["Swift", "SwiftUI", "SwiftData", "PDFKit"],
         },
         {
             id: 3,

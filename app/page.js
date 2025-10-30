@@ -99,7 +99,7 @@ export default function Home() {
             <p>DIU Routine is a modern iOS app designed to help students and teachers of Daffodil International University easily access class routines and campus room information. It offers a clean UI, smooth performance, and real-time updates to make academic scheduling simple and efficient.</p>
             <div className="flex items-center mt-4 gap-2">
               <LuTag className="text-lg" />
-              <div className="flex gap-5 md:gap-1 overflow-hidden whitespace-nowrap max-w-full">
+              <div className="flex gap-3 md:gap-1 overflow-hidden whitespace-nowrap max-w-full">
                 <p className="text-blue-200 text-xs bg-[#313244] px-2 py-1 font-semibold rounded-md">Swift</p>
                 <p className="text-green-200 text-xs bg-[#313244] px-2 py-1 font-semibold rounded-md">SwiftUI</p>
                 <p className="text-yellow-200 text-xs bg-[#313244] px-2 py-1 font-semibold rounded-md">SwiftData</p>
@@ -137,7 +137,7 @@ export default function Home() {
             </p>
             <div className="flex items-center mt-4 gap-2">
               <LuTag className="text-lg" />
-              <div className="flex gap-5 md:gap-1  overflow-hidden whitespace-nowrap max-w-full">
+              <div className="flex gap-3 md:gap-1  overflow-hidden whitespace-nowrap max-w-full">
                 <p className="text-blue-200 text-xs bg-[#313244] px-2 py-1 font-semibold rounded-md">Swift</p>
                 <p className="text-green-200 text-xs bg-[#313244] px-2 py-1 font-semibold rounded-md">SwiftUI</p>
                 <p className="text-yellow-200 text-xs bg-[#313244] px-2 py-1 font-semibold rounded-md">SwiftData</p>

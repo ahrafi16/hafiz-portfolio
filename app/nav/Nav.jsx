@@ -60,9 +60,12 @@ const Page = () => {
                             </Link>
                         </li>
                         <li>
-                            <Link href="/resume" className="hover:text-[#a6e3a1] transition-colors">
+                            <a href="/resume.pdf?view"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="hover:text-[#a6e3a1] transition-colors">
                                 Resume
-                            </Link>
+                            </a>
                         </li>
                     </div>
 
@@ -117,13 +120,15 @@ const Page = () => {
                         >
                             Project
                         </Link>
-                        <Link
-                            href="/resume"
+                        <a
+                            href="/resume.pdf?view"
+                            target="_blank"
+                            rel="noopener noreferrer"
                             onClick={closeDrawer}
                             className="text-xl hover:text-[#a6e3a1] transition-colors py-3 border-b border-gray-700"
                         >
                             Resume
-                        </Link>
+                        </a>
                     </nav>
                 </div>
             </div>
