@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { RiUser3Line } from "react-icons/ri";
-import pp from "../../public/pp.png";
+import pp from "../../public/hafiz.jpg";
 import { TbBrandGithub } from "react-icons/tb";
 import { TbBrandLinkedin } from "react-icons/tb";
 import { FaAppStore, FaXTwitter } from "react-icons/fa6";
@@ -20,7 +20,7 @@ const page = () => {
                     />
                 </div>
                 <div className="md:w-2/3">
-                    <p className="text-xl">
+                    <p className="text-lg">
                         I am a final-year BSc Computer Science student with a passion for mobile app development. I started my journey learning Dart and Flutter, building several exciting applications along the way.
                         <br /> <br />
                         Recently, I have been diving into Swift, and I find iOS development increasingly fascinating. I love coding, creating apps, and solving problems through programming. From the beginning, I have been drawn to building intuitive mobile experiences, sometimes integrating Laravel as a backend for my applications.

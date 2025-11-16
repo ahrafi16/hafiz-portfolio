@@ -82,9 +82,8 @@ export default function Home() {
 
             </div>
           </div>
-          <div className="space-y-3 p-5">
+          <div className="flex flex-col h-full space-y-3 p-5">
             <h2 className="text-xl flex justify-between items-center font-semibold group-hover:text-[#a6e3a1] transition-colors duration-300">
-
               <span> DIU Routine</span>
               <span className="flex items-center gap-3">
                 <a href="https://apps.apple.com/us/app/diu-routine/id6748752277" target="_blank" rel="noopener noreferrer">
@@ -96,7 +95,7 @@ export default function Home() {
               </span>
 
             </h2>
-            <p>DIU Routine is a modern iOS app designed to help students and teachers of Daffodil International University easily access class routines and campus room information. It offers a clean UI, smooth performance, and real-time updates to make academic scheduling simple and efficient.</p>
+            <p className="">DIU Routine is a modern iOS app designed to help students and teachers of Daffodil International University easily access class routines and campus room information. It offers a clean UI, smooth performance, and real-time updates to make academic scheduling simple and efficient.</p>
             <div className="flex items-center mt-4 gap-2">
               <LuTag className="text-lg" />
               <div className="flex gap-3 md:gap-1 overflow-hidden whitespace-nowrap max-w-full">
@@ -109,6 +108,7 @@ export default function Home() {
             </div>
           </div>
         </div>
+
         {/* projects 2 */}
         <div className="group border  border-gray-700 hover:border-[#a6e3a1] rounded-2xl w-full cursor-pointer">
           <div className="bg-[#a9b4c0] p-7 rounded-t-2xl">
@@ -126,7 +126,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="space-y-3 p-5">
+          <div className="flex flex-col h-full space-y-3 p-5">
             <h2 className="text-xl flex justify-between items-center font-semibold group-hover:text-[#a6e3a1] transition-colors duration-300">
               <span>GradeX</span>
               <a href="https://github.com/hafizflow/GradeX" target="_blank" rel="noopener noreferrer">

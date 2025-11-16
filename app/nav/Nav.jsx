@@ -60,6 +60,14 @@ const Page = () => {
                             </Link>
                         </li>
                         <li>
+                            <a href="https://www.notion.so/My-Swift-Note-29264721c10580398e10ee4209d2912c"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="hover:text-[#a6e3a1] transition-colors">
+                                Notes
+                            </a>
+                        </li>
+                        <li>
                             <a href="/resume.pdf?view"
                                 target="_blank"
                                 rel="noopener noreferrer"
