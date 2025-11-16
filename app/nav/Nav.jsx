@@ -68,7 +68,7 @@ const Page = () => {
                             </a>
                         </li>
                         <li>
-                            <a href="/resume.pdf?view"
+                            <a href="/hafizur_rahman.pdf?view"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="hover:text-[#a6e3a1] transition-colors">
