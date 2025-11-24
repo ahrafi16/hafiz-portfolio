@@ -40,7 +40,7 @@ export default function RootLayout({ children }) {
       >
         <Nav />
         {/* Wrap page content with padding instead */}
-        <main className="px-10  md:px-20 lg:px-50 mx-auto">
+        <main className="px-10  md:px-20 lg:px-40 mx-auto">
           {children}
           {footer()}
         </main>

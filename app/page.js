@@ -82,7 +82,7 @@ export default function Home() {
 
             </div>
           </div>
-          <div className="flex flex-col h-full space-y-3 p-5">
+          <div className="flex flex-col space-y-3 p-5">
             <h2 className="text-xl flex justify-between items-center font-semibold group-hover:text-[#a6e3a1] transition-colors duration-300">
               <span> DIU Routine</span>
               <span className="flex items-center gap-3">
@@ -126,7 +126,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="flex flex-col h-full space-y-3 p-5">
+          <div className="flex flex-col space-y-3 p-5">
             <h2 className="text-xl flex justify-between items-center font-semibold group-hover:text-[#a6e3a1] transition-colors duration-300">
               <span>GradeX</span>
               <a href="https://github.com/hafizflow/GradeX" target="_blank" rel="noopener noreferrer">
