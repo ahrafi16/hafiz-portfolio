@@ -7,6 +7,7 @@ import p3 from "../../public/project3.jpg";
 import p4 from "../../public/project4.jpg";
 import p5 from "../../public/project5.jpg";
 import p6 from "../../public/project6.jpg";
+import p7 from "../../public/project7.jpg";
 import { TbBrandGithub } from "react-icons/tb";
 
 const page = () => {
@@ -89,6 +90,19 @@ const page = () => {
             details:
                 "A Flutter-based e-commerce app with a clean architecture and GetX for state management. Features include product browsing, search, filtering, and sorting with dynamic data from REST APIs. The app offers a modern, responsive UI, smooth navigation, optimized performance, and efficient API integration for a seamless shopping experience",
             tags: ["Flutter", "Dart", "GetX", "Firebase"],
+        },
+        {
+            id: 7,
+            code: p7,
+            name: "StreamFlix",
+            version: "https://github.com/hafizflow/StreamFlix.git",
+            description:
+                "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quaerat sapiente numquam laborum praesentium nostrum delectus, nam mollitia sunt neque?",
+            contributors: 88,
+            title: "StreamFlix",
+            details:
+                "An iOS video streaming app built with SwiftUI using MVVM architecture and Combine for state management. Features include HLS video playback, custom player controls, category-based browsing, and search with data from RESTful APIs. The app delivers a modern UI, smooth streaming, efficient networking, and adaptive playback for a reliable viewing experience.",
+            tags: ["SwiftUI", "Swift", "AVFoundation", "HLS", "Combine", "MVVM"],
         },
     ];
 
